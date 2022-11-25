@@ -21,7 +21,7 @@ const Navbar = () => {
           <a href="#" className={classes.navbar__link}>Places to go</a>
           <a href="#" className={classes.navbar__link}>Magazine</a>
           <a href="#" className={classes.navbar__link}>Tickets</a>
-          <input className={!showFinder?classes['finder'] :''} />
+          <input className={!showFinder?classes.finder:classes['finder-active']} placeholder="Explore... " />
           <FontAwesomeIcon icon={faMagnifyingGlass} className={classes.magnifier} onClick={clickHandler}/>
         </nav>
     </div>

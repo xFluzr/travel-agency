@@ -1,16 +1,23 @@
 .header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),url('../../assets/cracow.jpg');
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 750px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5rem;
 }
 .header__heading{
     font-size: 6rem;
     color: white;
     margin-bottom: 4rem;
+}
+.btn-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
 }

@@ -1,0 +1,28 @@
+.btn{
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: 0;
+    background-color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: rgb(14, 13, 13);
+    transition: all 0.5s;
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;    
+    background-color: rgb(224, 224, 224);
+    transform: scale(1.05);
+}
+p{
+    color:rgb(201, 34, 34);
+}
+.btn__text{
+    margin-left: 10px;
+    color: rgb(17, 17, 17);
+}
