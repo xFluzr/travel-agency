@@ -1,0 +1,54 @@
+.listHeader{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.list-Heading{
+    font-size: 2rem;
+    font-weight: bold;
+    color:rgb(56, 56, 56);
+}
+.listHeader__right{
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    margin-left: 10px;
+    background-color: rgb(104, 240, 133);
+    color: white;
+    padding: 4px;
+    border-radius: 50%;
+}
+.arrow:hover{
+    cursor: pointer;
+}
+
+.list-of-places{
+    width: 100%;
+    max-width: 1250px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.list-scroll-left,.list-scroll-right{
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    padding:20px;
+    top: 42.5%;
+    background-color: grey;
+    color: white;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.list-scroll-left{
+    left: -20px;
+}
+.list-scroll-right{
+   right: -20px;
+}

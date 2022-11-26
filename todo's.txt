@@ -1,2 +1,9 @@
-1.Delete all dummy things made by React
-2.Find nice colors and pictures for your webiste
+1.Delete all dummy things made by React--done
+2.Find nice colors and pictures for your webiste--done
+3.Basic structure of File--done
+4.Navbar and styling to it --done
+5.Header and styling to it --done
+6.List of places and styling to it
+7.User Opinions and styling to it
+8.Form  and styling to it
+9.Footer and styling to it
