@@ -12,13 +12,13 @@ const ListOfPlaces = () => {
       <p className={classes['listHeader__right']}>Find out more <FontAwesomeIcon icon={faArrowRight} className={classes.arrow}/></p>
       </div>
       <div className={classes['list-of-places']}>
-        <button className={classes['list-scroll-left']}>  </button>
+        <button className={classes['list-scroll-left']}> &#60; </button>
         <PlaceCard place={'Warsaw'} price={399} imgURL={"/assets/warsaw.jpg"} />
-        <PlaceCard place={'Krakow'} price={159} imgURL={"/assets/krakow2.jpg"} />
-        <PlaceCard place={'Gdansk'} price={199} imgURL={"/assets/gdansk.jpg"} />
-        <PlaceCard place={'Wroclaw'} price={199} imgURL={"../assets/wroclaw.jpg"} />
-        <PlaceCard place={'Rzeszow'} price={99} imgURL={"../assets/rzeszow.jpg"} />
-        <button className={classes['list-scroll-right']}>  </button>
+        <PlaceCard place={'Kraków'} price={159} imgURL={"/assets/krakow2.jpg"} />
+        <PlaceCard place={'Gdańsk'} price={199} imgURL={"/assets/gdansk.jpg"} />
+        <PlaceCard place={'Wrocław'} price={199} imgURL={"../assets/wroclaw.jpg"} />
+        <PlaceCard place={'Rzeszów'} price={99} imgURL={"../assets/rzeszow.jpg"} />
+        <button className={classes['list-scroll-right']}>  	&#62; </button>
       </div>
     </>
   
