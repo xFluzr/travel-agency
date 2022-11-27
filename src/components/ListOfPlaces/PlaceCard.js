@@ -6,7 +6,6 @@ const PlaceCard = (props) => {
     const imgBackground={backgroundImage:`url(${props.imgURL})`}
 
     const onHoverHandler=()=>{
-        console.log('duap')
         setShowData((prevData)=>!prevData)
     }
 

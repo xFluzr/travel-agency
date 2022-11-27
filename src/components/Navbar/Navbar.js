@@ -12,10 +12,12 @@ const Navbar = () => {
   
   return (
     <div className={classes.navbar}>
-        <h3 className={classes.navbar__logo}>visit
+        <h3 className={classes.navbar__logo}>
+          <a  href='#'>visit
           <span className={classes['logo-italic']}>
             Poland
-          </span>.pl
+          </span>.pl</a>
+          
         </h3>
         <nav className={classes.navbar__links}>
           <a href="#" className={classes.navbar__link}>Places to go</a>

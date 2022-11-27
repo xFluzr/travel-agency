@@ -14,10 +14,15 @@
     letter-spacing: 1px;
     color: white;
 }
+.navbar__logo a{
+    text-decoration: none;
+    color: white;
+}
 .logo-italic{
     font-family: var(--italic-font);
     font-size: 2.5rem;
     color: rgb(201, 34, 34);
+    cursor: pointer;
 }
 .navbar__link{
     margin: 0 1.5rem;
@@ -69,7 +74,7 @@
     font-weight: bold;
     transition: width 0.7s;
 }
-input,:active:focus{
+input{
     border: 5px solid rgb(54, 54, 54);
     border-radius: 10px;
     outline: 0;
