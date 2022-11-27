@@ -1,6 +1,6 @@
 import './App.css';
 import React,{useState,useEffect} from 'react';
-import ContactMeForm from './components/ContactMe/ContactMeForm';
+import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ListOfPlaces from './components/ListOfPlaces/ListOfPlaces';
@@ -20,7 +20,7 @@ const App=()=> {
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    },4000)
+    },10)
   },[]);
 
   return (
@@ -37,7 +37,7 @@ const App=()=> {
       <Header/>
       <ListOfPlaces/>
       <UserOpinions/>
-      <ContactMeForm/>
+      <ContactMe/>
       <Footer/>
       </>}
     </>

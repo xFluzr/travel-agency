@@ -1,9 +1,13 @@
-import React from 'react'
+
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import classes from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer>
-        <p>Made with ;3 by Jakub Jaszcz</p>
+    <footer className={classes.footer}>
+        <p>Made with <FontAwesomeIcon icon={faHeart} className={classes.heart}/> by Jakub Jaszcz</p>
     </footer>
   )
 }

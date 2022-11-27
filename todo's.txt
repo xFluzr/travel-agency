@@ -4,6 +4,6 @@
 4.Navbar and styling to it --done
 5.Header and styling to it --done
 6.List of places and styling to it--done
-7.User Opinions and styling to it
+7.User Opinions and styling to it--done
 8.Form  and styling to it
 9.Footer and styling to it

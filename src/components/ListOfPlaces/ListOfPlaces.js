@@ -17,7 +17,7 @@ const ListOfPlaces = () => {
 
 
   return (
-    <>
+    <div className={classes['listOfPlaces__wrapper']}>
       <div className={classes.listHeader} id="placesToGo">
       <h2 className={classes['list-Heading']}>Places to go</h2>
       <p className={classes['listHeader__right']}>Find out more <FontAwesomeIcon icon={faArrowRight} className={classes.arrow}/></p>
@@ -25,7 +25,7 @@ const ListOfPlaces = () => {
       <div className={classes['list-of-places']}>
           {<ImageSlider slides={slides}/>}
       </div>
-    </>
+    </div>
   
   )
 }

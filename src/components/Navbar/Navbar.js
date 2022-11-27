@@ -5,13 +5,23 @@ import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [showFinder,setShowFinder]=useState(false);
+  const [color,setColor]=useState(false);
 
   const clickHandler=()=>{
     setShowFinder(prevState=>!prevState);
   }
+  const changeColor=()=>{
+    if(window.scrollY>=90){
+      setColor(true);
+    }else{
+      setColor(false);
+    }
+  }
+
+  window.addEventListener("scroll",changeColor)
   
   return (
-    <div className={classes.navbar}>
+    <div className={color?`${classes.navbar}  ${classes['navbar-bg-black']}`:classes.navbar }>
         <h3 className={classes.navbar__logo}>
           <a  href='#'>visit
           <span className={classes['logo-italic']}>
