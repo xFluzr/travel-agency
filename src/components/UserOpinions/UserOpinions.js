@@ -1,8 +1,12 @@
-import React from 'react'
+import React from 'react';
+import classes from './UserOpinions.module.css';
 
 const UserOpinions = () => {
   return (
-    <div>UserOpinions</div>
+    <div className={classes['userOpinions__wrapper']}>
+      
+      
+    </div>
   )
 }
 
