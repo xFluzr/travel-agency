@@ -13,7 +13,7 @@
 .list-Heading{
     font-size: 3rem;
     font-weight: bold;
-    color:rgb(56, 56, 56);
+    color:var(--dark-color);
 }
 .listHeader__right{
     display: flex;
@@ -21,7 +21,7 @@
 }
 .arrow{
     margin-left: 10px;
-    background-color: rgb(104, 240, 133);
+    background-color: var(--green-color);
     color: white;
     padding: 4px;
     border-radius: 50%;

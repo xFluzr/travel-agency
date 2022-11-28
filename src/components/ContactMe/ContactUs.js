@@ -2,11 +2,11 @@ import { faBusinessTime, faLocation, faPhone } from '@fortawesome/free-solid-svg
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import classes from './BackGroundStripe.module.css'
-import ContactMeForm from './ContactMeForm'
+import ContactUsForm from './ContactUsForm'
 
 const ContactMe = () => {
   return (
-    <div className={classes.wrapper}>
+    <div className={classes.wrapper} id="ContactUs">
         <div className={classes['contact-info']}>
             <div className={classes['location-info']}>
                 <h4><FontAwesomeIcon icon={faPhone} className={classes.icon}/>Call Me</h4>
@@ -22,7 +22,7 @@ const ContactMe = () => {
             </div>
         </div>
       
-       <ContactMeForm/>
+       <ContactUsForm/>
     </div>
   )
 }

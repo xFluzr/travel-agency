@@ -30,9 +30,9 @@ const Navbar = () => {
           
         </h3>
         <nav className={classes.navbar__links}>
-          <a href="#placesToGo" className={classes.navbar__link}>Places to go</a>
-          <a href="#" className={classes.navbar__link}>Magazine</a>
-          <a href="#" className={classes.navbar__link}>Tickets</a>
+          <a href="#placesToGo" className={classes.navbar__link}>PLACES TO GO</a>
+          <a href="#" className={classes.navbar__link}>MAGAZINE</a>
+          <a href="#ContactUs" className={classes.navbar__link}>CONTACT US</a>
           <input className={!showFinder?classes.finder:classes['finder-active']} placeholder="Explore... " />
           <FontAwesomeIcon icon={faMagnifyingGlass} className={classes.magnifier} onClick={clickHandler}/>
         </nav>

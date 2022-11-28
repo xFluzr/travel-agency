@@ -1,6 +1,6 @@
 import './App.css';
 import React,{useState,useEffect} from 'react';
-import ContactMe from './components/ContactMe/ContactMe';
+import ContactUs from './components/ContactMe/ContactUs';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import ListOfPlaces from './components/ListOfPlaces/ListOfPlaces';
@@ -12,15 +12,15 @@ const App=()=> {
   const [loading,setLoading]=useState(false);
   const override={
     position:"absolute",
-    left:"45%",
-    top:"45%"
+    left:"50%",
+    top:"48%"
   }
 
   useEffect(()=>{
     setLoading(true);
     setTimeout(()=>{
       setLoading(false)
-    },10)
+    },2000)
   },[]);
 
   return (
@@ -37,7 +37,7 @@ const App=()=> {
       <Header/>
       <ListOfPlaces/>
       <UserOpinions/>
-      <ContactMe/>
+      <ContactUs/>
       <Footer/>
       </>}
     </>

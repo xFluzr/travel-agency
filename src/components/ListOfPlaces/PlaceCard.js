@@ -11,10 +11,10 @@ const PlaceCard = (props) => {
 
     return (
         <div className={classes.card} style={imgBackground} onMouseEnter={onHoverHandler} onMouseLeave={onHoverHandler}>
-          {showData && <div className={classes.card__content}>
+          <div className={`${classes.card__content} ${showData && classes['card__content__onHover']}`}>
                 <p>{props.place}</p>
                 <p>Price:{props.price}zł /night</p>
-            </div>}
+            </div>
         </div>
     )
 }
