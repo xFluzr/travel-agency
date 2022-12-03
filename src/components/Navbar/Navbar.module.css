@@ -1,8 +1,7 @@
 .navbar{
     position: fixed;
     width: 100%;
-    height: 100px;
-    z-index: 10;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,14 +54,17 @@
 .navbar__link:hover{
     cursor: pointer;
 }
-.magnifier{
+.navbar__icon{
     color:white;
     font-weight: bold;
     font-size: 1.5rem;
     margin:0 1rem;
 }
-.magnifier:hover{
+.navbar__icon:hover{
     cursor: pointer;
+}
+.navbar___mobile{
+    display: none;
 }
 .finder{
     width: 0%;
@@ -71,7 +73,6 @@
     padding: 5px 10px;
     font-weight: bold;
     transition: width  0.7s;
-    
     border-radius: 10px;
     outline: 0;
 }
@@ -84,5 +85,43 @@
     border: 5px solid var(--green-color);
     border-radius: 10px;
     outline: 0;
+}
+.navbar__links-mobile{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh-100px);
+}
+@media screen and (max-width:1100px) {
     
+    .finder,.navbar__icon{
+        display: none;
+    }
+  
+}
+@media screen and (max-width:950px) {
+    .navbar{
+        position: absolute;
+        top: 0;
+    }
+    .navbar__logo{
+        margin-top: 100px;
+    }
+    .navbar__links{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar__link{
+        font-size: 2rem;
+       margin: 3rem;
+    }
+    .finder,.navbar__icon{
+        display: none;
+    }
+    .navbar__logo{
+        font-size: 1.5rem;
+    }
+    .logo-italic{
+        font-size: 1.8rem;
+    }
+   
 }
